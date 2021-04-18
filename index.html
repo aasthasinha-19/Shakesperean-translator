@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Baskervville' rel='stylesheet'>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="index.js" type="text/JavaScript"></script>
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>SHAKESPEREAN TALKS !</h1>
+    </header>
+    
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="img">
+                <img class="img-fluid" src="SP.jpg"></div>
+                <p>Shakespeare invented many words and his style of narration in many ways was unique to his time.He is often called England's national poet and the "Bard of Avon".
+                    . This translator takes English as input and converts to Shakespeare English.</p>
+          </div>
+          <div class="col-sm">
+            <div class="main">
+                <textarea id="txt-input" placeholder="Enter Your Message here which you want to  convert to Shakesperean language" ></textarea>
+                <button id="btn-translate" onclick="clickHandler()">Translate</button>
+                <h3>Output will come here 👇</h3>
+                <div id="output"></div>
+               </div>
+          </div>  
+   </div>
+</body>
+</html>
