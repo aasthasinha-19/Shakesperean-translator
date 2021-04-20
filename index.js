@@ -7,10 +7,10 @@ function getTranslationURL(input){
     return serverURL + "?" + "text=" + input
 }
 
-function errorHandler(){
-    console.log("error occured",error);
-    alert("something wrong with server ! Try after sometime");
-}
+function errorHandler(error) {
+    alert("Something wrong with the server,try again later :)");
+  }
+
 
 function clickHandler(){
     
